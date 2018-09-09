@@ -27,7 +27,8 @@ App = React.createClass({
             />
           </div>
         );
-    }
+    },
+    
     handleSearch: function(searchingText) {  // 1.
     this.setState({
       loading: true  // 2.
