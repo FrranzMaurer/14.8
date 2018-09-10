@@ -52,7 +52,7 @@ App = React.createClass({
         if (xhr.status === 200) {
            var data = JSON.parse(xhr.responseText).data; // 4.
             var gif = {  // 5.
-                url: data.fixed_width_downsampled.url,
+                url: data.fixed_width_downsampled_url,
                 sourceUrl: data.url
             };
             callback(gif);  // 6.
